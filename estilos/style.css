@@ -37,6 +37,9 @@ header{
   padding: 10px;
   display: flex;
   place-content: center flex-end;
+  position: sticky;
+  top: -1px;
+  z-index: 1;
 
 }
 
@@ -279,6 +282,21 @@ footer a:hover{
 }
 
 @media screen and (min-width:768px) {
+  main{
+    grid-template-columns: auto 400px 1fr auto;
+  }
+
+  section#ficha{
+    grid-column: 2/3;
+    height: fit-content;
+    position: sticky;
+    top: 65px;
+  }
+
+  section#detalhe{
+    grid-column: 3/4;
+  }
+
   #skill-container{
     grid-template-columns: 1fr 1fr;
   }
