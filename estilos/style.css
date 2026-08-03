@@ -257,7 +257,8 @@ article h2{
   border-radius: 8px;
   border-left: 5px solid var(--destaque-inverso);
   transition: border-color 0.5s, border-width 0.5s;
-
+  font-size: 1em;
+  font-weight: bolder;
 }
 
 #projeto-container .projeto:hover{
